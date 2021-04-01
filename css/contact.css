@@ -1,0 +1,261 @@
+/* Global CSS starts*/
+
+h1{
+    font-size: 46px;
+    color: #fff;
+
+}
+h2{
+    font-size: 16px;
+    padding: 69px 39px;
+    color: #ffffff;
+}
+h3{
+    font-size: 35px;
+
+}
+label{
+    font-size: 27px;
+    color: burlywood;
+}
+h5{
+    font-size: 46px;
+    color: #000;
+
+}
+h6{
+    color: #ffffff;
+    font-size: 15px;
+
+}
+p{
+    font-size: 13px;
+    padding: 7px 54px;
+    color: cornflowerblue;
+}
+.btn-one{
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    background: #000000a3;
+    color: #efa510;
+    border: transparent;
+    border-radius: 20px;
+    padding: 6px 32px;
+    font-size: 15px;
+    right: 119px;
+
+
+}
+.span-one{
+	border-bottom: 3px solid #efa510;
+    margin: 20px auto;
+    display: block;
+    width: 98%;
+}
+
+
+
+/*Global CSS ends*/
+
+.hero{
+    background: url(../img/contact.jpg) no-repeat center top;
+    background-size: cover;
+    padding: 200px;
+
+}
+.hero-title{
+    text-align: right;
+    padding-bottom: 46px;
+    padding-top: 177px;
+    margin-left: 394px;
+}
+
+
+
+/*menu starts*/
+.nav-head{
+background-color: #adb5bd7a;
+
+}
+.nav-link{
+font-size: 16px;
+color: #000000!important;
+}
+.nav-link:hover{
+	color: #dd2a24!important;
+}
+ .nav-item {
+    padding: 7px 32px;
+}
+.nav-link.js-scroll-trigger.active{
+background-color: #DD4B2B;
+color: #fff!important;
+padding: 7px 18px;
+border-radius: 30px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover 
+	{background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/*menu ends*/
+
+/*slide section starts*/
+.slide{
+    text-align: left;
+    padding: 51px 0px;
+}
+.slide img{
+    height: 400px;
+}
+.fa.fa-quote-left{
+    font-size: 20px;
+    color: #efa510;
+   
+
+}
+.fa.fa-quote-right{
+   font-size: 20px;
+    color: #efa510;
+    padding-bottom: 91px;
+    
+
+}
+.d-none {
+    margin: -56px!important;
+}
+/*slide section ends*/
+
+/* contact form starts*/
+
+.cntc-form{
+    text-align: right;
+    padding-top: 100px;
+}
+
+
+.fa.fa-chevron-circle-down{
+    color: #000000;
+    font-size: 30px;
+    padding-right: 15px;        
+}
+
+.contact-form{
+        background: #ffffff;
+        position: relative;
+       
+        text-align: center
+
+}
+form{
+
+}
+.form-cntrl{
+    width: 80%;
+    margin: 4px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    font-size: 12px;
+    padding: 9px 8px;
+
+}
+.form-cntrl::hover{
+    border: 1px solid #188ac1;
+}
+.sbmt{
+    font-size: 12px;
+    padding: 7px 23px;
+    color: #000;
+    background: #efa510;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+/* contact form ends*/
+
+
+
+/* get in tpuch section starts*/
+
+.getintouch{
+    background: #2a2a2a;
+    padding: 100px;
+
+}
+.get-title{
+    text-align: center;
+
+}
+.list-icons{
+    padding-bottom: 15px;
+
+
+}
+.list-icons i {
+        background: transparent;
+    padding: 7px;
+    margin: 2px;
+    font-size: 30px;
+    border: 2px solid #3C3C3C;
+    width: 54px;
+    color: #ffffff;
+
+}
+.form-control{
+    margin: 30px auto;
+    display: block;
+    width: 65%;
+    padding: 15px 10px;
+    background: #515151;
+    color: #c6c6c6;;
+    border: none;
+
+}
+.btn{
+    margin: 0px auto;
+    display: block;
+    width: 14%;
+    padding: 15px 10px;
+    background: #transparent;
+    color: #c6c6c6;
+    border: 2px solid #3C3C3C;
+
+}
+
+/* get in touch section ends*/
+
+
+
+
+
+/* footer section starts*/
+footer{
+	background: #2b2b2b;
+	padding: 50px 0px;
+}
+.footer-one{
+
+}
+.footer-two{
+	text-align: end;
+}
+/* footer section ends*/

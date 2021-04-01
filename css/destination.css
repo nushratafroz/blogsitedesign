@@ -1,0 +1,334 @@
+/* Global CSS starts*/
+
+h1{
+    font-size: 46px;
+    color: #fff;
+
+}
+h2{
+    font-size: 26px;
+    padding: 15px;
+    color: #ffffff;
+
+}
+h3{
+	font-size: 35px;
+    color: #000000;
+    text-decoration: underline;
+
+}
+h6{
+    color: #ffffff;
+    font-size: 15px;
+
+}
+p{
+
+}
+.btn-one{
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    background: #ffffff;
+    color: #efa510;
+    border: transparent;
+    border-radius: 20px;
+    padding: 6px 32px;
+    font-size: 15px;
+    right: 119px;
+
+
+}
+.span-one{
+	border-bottom: 3px solid #efa510;
+    margin: 20px auto;
+    display: block;
+    width: 98%;
+}
+
+
+
+/*Global CSS ends*/
+
+.hero{
+    background: url(../img/europe.jpg) no-repeat center top;
+    background-size: cover;
+    padding: 200px;
+
+}
+.hero-title{
+    text-align: left;
+    padding-bottom: 46px;
+    padding-top: 177px;
+    margin-left: -100px;
+}
+
+
+
+/*menu starts*/
+.nav-head{
+background-color: #adb5bd7a;
+
+}
+.nav-link{
+font-size: 16px;
+color: #000000!important;
+}
+.nav-link:hover{
+	color: #dd2a24!important;
+}
+ .nav-item {
+    padding: 7px 32px;
+}
+.nav-link.js-scroll-trigger.active{
+background-color: #DD4B2B;
+color: #fff!important;
+padding: 7px 18px;
+border-radius: 30px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover 
+	{background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/*menu ends*/
+
+/*blog intro starts*/
+.blog-intros{
+	background: url(../img/destinationbg.jpg) no-repeat center top;
+	background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+}
+.blogs-all{
+	padding-top: 10px;
+
+}
+.blog-one{
+	padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.date-blog{
+	padding-top: 20px;
+    padding-left: 15px;
+
+}
+.date-blog label{ 
+	text-decoration: underline;
+    color: #000000;
+    cursor: pointer;
+
+}
+.date-blog label:hover {color: #0e2433;}
+
+.author-blog{
+	padding-top: 20px;
+    padding-left: 245px;
+}
+
+
+.author-blog label {
+	text-decoration: underline;
+    color: #000000;
+    cursor: pointer;
+
+}
+.author-blogs label:hover {color: #0e2433;}
+
+.fa.fa-calendar {
+	padding-right: 4px;
+    color: #000000;
+
+}
+.fa.fa-pencil{
+	padding-right: 4px;
+    color: #000000;
+
+}
+.read-more{
+
+}
+.read-more label{
+	font-size: 20px;
+
+
+}
+.socials{
+	padding-left: 147px;
+
+}
+.socials label{
+	font-size: 17px;
+    color: #000000;
+    text-decoration: underline;
+
+}
+.list-icons{
+
+}
+.list-icons i{
+	padding: 0px 12px 0px 12px;
+    font-size: 17px;
+    color: #000000;
+    cursor: pointer;
+	
+}
+.list-icons i:hover {color:#0e2433;}
+
+/*blog intro ends*/
+
+/*side-ingr starts*/
+.side-ingr{
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*side-one starts*/
+.side-one{
+	    padding: 20px 0px 25px 0px;
+}
+.side-one p{
+	font-size: 18px;
+    color: #767676;
+
+}
+
+/*side-one ends*/
+/*side-two starts*/
+.side-two{
+	    padding: 20px 0px 25px 0px;
+}
+.btn-two{
+	margin: 20px auto;
+    display: block;
+    background: #ffffff;
+    color: #efa510;
+    border: 3px solid #000000;
+    padding: 6px 32px 6px 32px;
+    font-size: 18;
+
+}
+.category-list{
+
+}
+.list-items{
+	text-decoration: underline;
+    text-decoration-color: black;
+
+}
+.list-items a{
+	font-size: 17px;
+    color: cadetblue;
+
+}
+.list-items span{
+	    color: cadetblue;
+    	padding-left: 10px;
+}
+
+/*side-two ends*/
+
+/*side-three starts*/
+.side-three{
+	    padding: 20px 0px 25px 0px;
+
+}
+.getintouch{
+	background: #2a2a2a;
+	padding: 100px;
+
+}
+.get-title {
+	text-align: center;
+
+}
+.get-title p{
+	padding-top: 15px;
+    font-size: 17px;
+    color: #767676;
+}
+.list-icon{
+
+}
+.list-icon i {
+	
+ 	font-size: 21px;
+    color: #000000;
+    cursor: pointer;
+    padding: 17px 22px;
+    border: 2px solid #000000;
+    margin: 0px 8px;
+}
+.form-control{
+    margin: 30px auto;
+    display: block;
+    width: 104%;
+    padding: 15px 10px;
+    background: #515151;
+    color: #ffffff;
+    border: none;
+
+}
+.btn{
+    margin: 0px auto;
+    display: block;
+    width: 46%;
+    padding: 15px 10px;
+    background: #transparent;
+    color: #c6c6c6;
+    border: 2px solid #3C3C3C;
+    font-size: 18px;
+}
+
+/*side-three ends*/
+
+/*side-four starts*/
+.side-four{
+	    padding: 20px 0px 25px 0px;
+}
+.pop-tag{
+
+}
+.pop-tag span{
+	text-decoration: underline;
+    padding: 0px 9px;
+    font-size: 17px;
+
+}
+
+/*side-four ends*/
+
+
+
+/*side-ingr ends*/
+/* footer section starts*/
+footer{
+	background: #2b2b2b;
+	padding: 50px 0px;
+}
+.footer-one{
+
+}
+.footer-two{
+	text-align: end;
+}
+/* footer section ends*/
